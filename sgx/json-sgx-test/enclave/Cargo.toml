@@ -15,9 +15,9 @@ unbounded_depth = ["serde_json/unbounded_depth"]
 preserve_order = ["serde_json/preserve_order"]
 
 [dependencies]
-serde = { git = "https://github.com/mesalock-linux/serde-sgx" }
-serde_derive = { git = "https://github.com/mesalock-linux/serde-sgx" }
-serde_bytes = { git = "https://github.com/mesalock-linux/serde-bytes-sgx" }
+serde = { git = "https://github.com/NexTokenTech/serde-sgx" }
+serde_derive = { git = "https://github.com/NexTokenTech/serde-sgx" }
+serde_bytes = { git = "https://github.com/NexTokenTech/serde-bytes-sgx" }
 serde_json = { path = "../../.." }
 
 
